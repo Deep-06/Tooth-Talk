@@ -1,6 +1,9 @@
 import {Container, HStack, Text,Spacer,
- VStack,Image, Button} from "@chakra-ui/react"
+ VStack,Image, Button,} from "@chakra-ui/react"
 import {StarIcon} from "@chakra-ui/icons"
+import Service from "./Service"
+import Footer from "../Components/Footer"
+
 function Home(){
 return (
 <VStack align='stretch'>
@@ -40,7 +43,7 @@ return (
     <Image boxSize='10%' src="/Image/SAP.png"/>
   </HStack>
 
-   <HStack spacing={15} p={10} pl={10} pr={10} bgGradient="linear(to-r, white, cyan.100)">
+   <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-r, white, cyan.100)">
      <Container w="50%" borderRadius='30px 30px 300px 300px'
        border="10px solid lightblue" boxShadow='2xl'>
       <Image w="100%" borderRadius='30px 30px 300px 300px' src="/Image/dentist1.png"/>
@@ -70,6 +73,27 @@ return (
       </VStack>
     </HStack>
 
+  <Service/>  
+  
+  <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-r, white, cyan.100)">
+    <Container w="50%" borderRadius='30px 30px 300px 300px'
+       border="10px solid lightblue" boxShadow='2xl'>
+      <Image w="100%" borderRadius='30px 30px 300px 300px' src=""/>
+    </Container>
+
+    <VStack w="50%" textAlign={'left'} spacing={5}>
+      <Text fontSize='2xl' color="#60CEF2" textAlign={'left'}>-OUR DOCTORS</Text>
+      <Text fontSize='6xl' textAlign={'left'}>Qualified Doctors 👩🏽‍⚕️</Text>
+      <Text fontSize='2xl'>Handled directly by general dentists and professional and experienced specialists.</Text>
+      <Container>
+        <Text fontSize='2xl'>Dentist - Orthopedist</Text>
+        <Text fontSize='6xl'>Dr. Waluyo Sunyoto, M.Sc.</Text>
+      </Container>
+      <Button bg="blue" color="white" p={7} borderRadius="full">View All Doctors</Button>
+    </VStack>
+  </HStack>
+
+  <Footer/>
 </VStack>
 )
 }
