@@ -4,11 +4,10 @@ import {HStack, Image,Spacer,Text, VStack} from "@chakra-ui/react";
 
 const links=[
     {text:"Home", path:"/"},
-    {text:"Services", path:"/service"},
     {text:"Team", path:"/team"},
     {text:"Contact", path:"/contact"},
     {text:"Book", path:"/book"},
-    {text:"Login", path:"/login"},   
+    {text:"SignIn", path:"/signin"},   
 ]
 export default function Navbar(){
     return(

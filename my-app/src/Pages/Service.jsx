@@ -1,6 +1,6 @@
 import {Container, HStack, Text,VStack,Image,Flex,Heading} from "@chakra-ui/react"
 import {StarIcon} from "@chakra-ui/icons"
-import Footer from "../Components/Footer"
+//import Footer from "../Components/Footer"
 
 function Service(){
 return (
@@ -62,7 +62,7 @@ return (
     </VStack>
   </HStack>
 
-  <Footer/>
+  {/* <Footer/> */}
 </VStack>
 )
 }
