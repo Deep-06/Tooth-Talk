@@ -16,13 +16,13 @@ function AllRoutes(){
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/book" 
                 element={
-                <PrivateRoute>  
-                <Book/>
-                </PrivateRoute> }/>
+                 
+                 <Book/>
+                }/>
             <Route path="/signin" element={<Signin/>}/>  
             </Routes>
         </div>
     )
 }
-
+<PrivateRoute> </PrivateRoute> 
 export default AllRoutes

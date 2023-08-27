@@ -6,7 +6,7 @@ function PrivateRoute(props) {
     const { isAuth } = useContext(AuthContext)
   
     if (!isAuth) {
-      return <Navigate to="/login" />
+      return <Navigate to="/signin" />
     }
   
     return props.children

@@ -7,12 +7,12 @@ const links=[
     {text:"Team", path:"/team"},
     {text:"Contact", path:"/contact"},
     {text:"Book", path:"/book"},
-    {text:"SignIn", path:"/signin"},   
+    {text:"LogIn", path:"/signin"},   
 ]
 export default function Navbar(){
     return(
         
-        <HStack spacing='80px' pl={6} pr={6} bg="grey">
+        <HStack w='100%' position={"fixed"} spacing='80px'  pl={6} pr={6} bg={"green.500"}>
         <HStack>
          <Image borderRadius='80px'  boxSize='50px' src="/Image/Tooth Talk1.png"/>
          <VStack spacing={0}>

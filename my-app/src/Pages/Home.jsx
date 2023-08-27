@@ -1,14 +1,14 @@
-import {Container, HStack, Text,Spacer,Grid, GridItem,
- VStack,Image, Button} from "@chakra-ui/react"
+import {Container, HStack, Text,Spacer,Grid, GridItem,Box,
+ VStack,Image} from "@chakra-ui/react"
 import {StarIcon,EmailIcon} from "@chakra-ui/icons"
 import Service from "./Service"
 import Footer from "../Components/Footer"
-
+import { Link } from "react-router-dom"
 function Home(){
 return (
 <VStack align='stretch'>
 {/* #ECF7FC */}
- <HStack spacing={15} p={10} pl={10} pr={10} 
+ <HStack spacing={15} p={10} pl={10} pr={10} mt={10}
     bgGradient="linear(to-t, white, cyan.100)">
 
   <Container w="50%">
@@ -23,8 +23,9 @@ return (
        your family with a team of professional dentists at friendly prices.
      </Text>
      <Spacer></Spacer>
-     <Button bg="blue" color="white" p={7} borderRadius="full"
-     >Make an Appointment</Button>
+     <Box bg="blue" p={5} borderRadius="full" color="white" >
+     <Link to='/book'  >Make an Appointment</Link>
+     </Box>
     </VStack>
   </Container>
 
@@ -89,7 +90,10 @@ return (
         <Text fontSize='2xl'>Dentist - Orthopedist</Text>
         <Text fontSize='6xl'>Dr. Waluyo Sunyoto, M.Sc.</Text>
       </Container>
-      <Button bg="blue" color="white" p={7} borderRadius="full">View All Doctors</Button>
+      <Box bg="blue" color="white" p={5} borderRadius="full">
+      <Link to='/team' >View All Doctors</Link>
+      </Box>
+      
     </VStack>
   </HStack>
 
@@ -150,7 +154,10 @@ return (
         <EmailIcon h={10} w={10}/>
       </HStack>
     </VStack>
-    <Button fontSize="2xl" p={8} borderRadius='50px'color={"blue.400"} bgColor={"cyan.100"}>Contact Here</Button>
+    <Box fontSize="2xl" p={5} borderRadius='50px'color={"blue.400"} bgColor={"cyan.100"}>
+    <Link to='/contact'>Contact Here</Link>
+    </Box>
+    
   </HStack>
   <Footer/>
 </VStack>
