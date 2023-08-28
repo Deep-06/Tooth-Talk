@@ -56,6 +56,6 @@ Chakra UI: A simple and customizable component library to style the website.
 React Router: Used for handling navigation between different pages.
 
 
-GitHub link: 
+GitHub link: https://github.com/Deep-06/penitent-cave-3104.git
 
 Netlify link:
