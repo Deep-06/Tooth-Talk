@@ -3,7 +3,7 @@
 Tooth Talk Dental Clinic Website
 
 Logo
-<img src="/Images/Tooth Talk.png"/>
+<img src="./my-app/public/Image/Tooth Talk.png"/>
  
 Welcome to the Tooth Talk Dental Clinic Website! This repository contains the code for a dental clinic website built using React and the Chakra UI library.
 
@@ -12,7 +12,7 @@ Tooth Talk Dental Clinic is a professional dental clinic that offers a range of 
 ###
 Home Page
 The homepage introduces users to the dental clinic, its services, and its team of doctors. Users can also make appointments directly from this page.
-<img src="/Images/Home.png"/>
+<img src="./my-app/public/Images/Home.png"/>
 
 ###
 Why Tooth Talk?
