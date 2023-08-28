@@ -17,17 +17,18 @@ return (
     <br/>
     <Grid gap={10} templateColumns="repeat(3,1fr)" fontSize='2xl'>
        <Container borderRadius='50px' p={5}>
-         <Image borderRadius='50px' boxSize="90%" src="https://www.edgecliffdentalcare.com.au/wp-content/uploads/2021/08/emergency_dentist_different-scaled.jpeg"/>
+         <Image borderRadius='50px' boxSize="90%" src="https://www.edgecliffdentalcare.com.au/wp-content/uploads/2021/08/emergency_dentist_different-scaled.jpeg"
+          boxShadow='dark-lg'/>
          <br/>
          <Text>Dr. Waluyo Sunyoto</Text>
        </Container>
        <Container borderRadius='50px' p={5}  >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61b90873400810292565283e_Dr-Boyer-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61b90873400810292565283e_Dr-Boyer-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Sara Boyer</Text>
        </Container>
        <Container borderRadius='50px' p={5} >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61b90ba1d1f086d95d0fc6dc_Dr-Patel-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61b90ba1d1f086d95d0fc6dc_Dr-Patel-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Jnana Patel</Text>
        </Container>
@@ -41,17 +42,17 @@ return (
     <br/>
     <Grid gap={10} templateColumns="repeat(3,1fr)" fontSize='2xl'>
        <Container borderRadius='50px' p={5}>
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0ee0b89ab66c0c0a8007_Byanca-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0ee0b89ab66c0c0a8007_Byanca-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Waluyo Sunyoto</Text>
        </Container>
        <Container borderRadius='50px' p={5}  >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0f052b87001c4b7177fc_Yadira-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0f052b87001c4b7177fc_Yadira-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Sara Boyer</Text>
        </Container>
        <Container borderRadius='50px' p={5} >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0f19b89ab605af0a811f_April-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba0f19b89ab605af0a811f_April-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Jnana Patel</Text>
        </Container>
@@ -65,27 +66,27 @@ return (
     <br/>
     <Grid gap={10} templateColumns="repeat(3,1fr)" fontSize='2xl'>
        <Container borderRadius='50px' p={5}>
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba110e1d50ca2c9704a62b_Mery-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61ba110e1d50ca2c9704a62b_Mery-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Waluyo Sunyoto</Text>
        </Container>
        <Container borderRadius='50px' p={5}  >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61d8603a07d35377bca2366a_Bea-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61d8603a07d35377bca2366a_Bea-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Sara Boyer</Text>
        </Container>
        <Container borderRadius='50px' p={5} >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61d8604bf1a43db8fae5accf_Valene-Headshot-p-500.png"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/61d8604bf1a43db8fae5accf_Valene-Headshot-p-500.png"/>
          <br/>
          <Text>Dr. Jnana Patel</Text>
        </Container>
        <Container borderRadius='50px' p={5}  >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/64dfc7e26321200c4c8fb082_Jackie-Headshot-p-500.jpeg"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/64dfc7e26321200c4c8fb082_Jackie-Headshot-p-500.jpeg"/>
          <br/>
          <Text>Dr. Sara Boyer</Text>
        </Container>
        <Container borderRadius='50px' p={5} >
-         <Image borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/64dfc8c57f8afcf1eef64f88_Luke-Headshot-2-p-500.jpg"/>
+         <Image boxShadow='dark-lg' borderRadius='50px' boxSize="90%" src="https://uploads-ssl.webflow.com/5e9892f4edd80981987ca210/64dfc8c57f8afcf1eef64f88_Luke-Headshot-2-p-500.jpg"/>
          <br/>
          <Text>Dr. Jnana Patel</Text>
        </Container>

@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" w='100%'>
      <Navbar />
      <AllRoutes/>
      

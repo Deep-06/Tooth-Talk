@@ -14,7 +14,7 @@ import {ViewIcon} from "@chakra-ui/icons"
 function Service(){
 return (
 <VStack>
-    <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-l, white, cyan.100)">
+    <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-l, white, cyan.100)" display={{ md: "flex" }}>
     <VStack w="50%" textAlign={'left'} spacing={5}>
       <Text fontSize='2xl' color="#60CEF2" textAlign={'left'}>-OUR SERVE & TESTIMONIAL</Text>
       <Text fontSize='6xl' textAlign={'left'}>Reviews 😍</Text>
@@ -83,7 +83,7 @@ return (
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
-            <StarIcon color="#60CEF2"/>
+            <StarIcon color="black"/>
             </HStack>
           </VStack>
         </Flex>
@@ -114,7 +114,7 @@ return (
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
-            <StarIcon color="#60CEF2"/>
+            <StarIcon color="black"/>
             </HStack>
           </VStack>
         </Flex>
@@ -144,8 +144,8 @@ return (
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
             <StarIcon color="#60CEF2"/>
-            <StarIcon color="#60CEF2"/>
-            <StarIcon color="#60CEF2"/>
+            <StarIcon color="black"/>
+            <StarIcon color="black"/>
             </HStack>
           </VStack>
         </Flex>

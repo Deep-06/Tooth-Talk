@@ -1,5 +1,5 @@
 import {  NavLink } from "react-router-dom"
-import {HStack, Image,Spacer,Text, VStack} from "@chakra-ui/react";
+import {Flex, HStack, Image,Spacer,Text, VStack} from "@chakra-ui/react";
 
 
 const links=[
@@ -12,7 +12,7 @@ const links=[
 export default function Navbar(){
     return(
         
-        <HStack w='100%' position={"fixed"} spacing='80px'  pl={6} pr={6} bg={"green.500"}>
+        <Flex w='100%' position={"fixed"} spacing='80px'  pl={6} pr={6} bg={"green.500"}  display={{ md: "flex" }}>
         <HStack>
          <Image borderRadius='80px'  boxSize='50px' src="/Image/Tooth Talk1.png"/>
          <VStack spacing={0}>
@@ -21,6 +21,7 @@ export default function Navbar(){
          </VStack>
          </HStack> 
          <Spacer/>
+         <HStack spacing='60px'>
           {links.map(({ text, path }) => (
         <NavLink
           key={path}
@@ -32,6 +33,7 @@ export default function Navbar(){
         </NavLink>
       ))} 
       </HStack>
+      </Flex>
         
     )
 }

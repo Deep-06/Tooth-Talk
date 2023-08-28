@@ -33,7 +33,7 @@ function Signin(){
     }
   };
     return (
-    <Flex w="100%" bgColor={"white"}>
+    <Flex w="100%" bgColor={"white"} display={{ md: "flex" }}>
         <Box w="40%" m="auto" mt={20} p={20} bgGradient="linear(to-t, pink, green.400)">
         <HStack m="auto" pl={20} p={5}>
          <Image borderRadius='80px'  boxSize='60px' src="/Image/Tooth Talk1.png"/>

@@ -1,15 +1,15 @@
 import {Container, HStack, Text,Spacer,Grid, GridItem,Box,
- VStack,Image} from "@chakra-ui/react"
+ VStack,Image, SimpleGrid} from "@chakra-ui/react"
 import {StarIcon,EmailIcon} from "@chakra-ui/icons"
 import Service from "./Service"
 import Footer from "../Components/Footer"
 import { Link } from "react-router-dom"
 function Home(){
 return (
-<VStack align='stretch'>
+<VStack align='stretch' w='100%'>
 {/* #ECF7FC */}
  <HStack spacing={15} p={10} pl={10} pr={10} mt={10}
-    bgGradient="linear(to-t, white, cyan.100)">
+    bgGradient="linear(to-t, white, cyan.100)" display={{ md: "flex" }}>
 
   <Container w="50%">
     <VStack spacing={2}>
@@ -36,15 +36,15 @@ return (
   </Container>
  </HStack>
 
-  <HStack spacing={100} m={20} pl={10} pr={10}>
-    <Image boxSize='15%' src="/Image/AXA.jpg"/>
-    <Image boxSize='12%' src="/Image/AIG.png"/>
-    <Image boxSize='12%' src="/Image/Farmers.png"/>
-    <Image boxSize='17%' src="/Image/hudson.jpg"/>
-    <Image boxSize='10%' src="/Image/SAP.png"/>
-  </HStack>
+  <Grid spacing={4} m={20} pl={5} pr={5} display="grid" templateColumns="repeat(5,1fr)">
+    <Image boxSize='50%' src="/Image/AXA.jpg"/>
+    <Image boxSize='50%' src="/Image/AIG.png"/>
+    <Image boxSize='50%' src="/Image/Farmers.png"/>
+    <Image boxSize='50%' src="/Image/hudson.jpg"/>
+    <Image boxSize='50%' src="/Image/SAP.png"/>
+  </Grid>
 
-   <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-r, white, cyan.100)">
+   <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgGradient="linear(to-r, white, cyan.100)" display={{ md: "flex" }}>
      <Container w="50%" borderRadius='30px 30px 300px 300px'
        border="10px solid lightblue" boxShadow='2xl'>
       <Image w="100%" borderRadius='30px 30px 300px 300px' src="/Image/dentist1.png"/>
@@ -76,7 +76,7 @@ return (
 
   <Service/>  
   
-  <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgColor={"cyan.100"}>
+  <HStack spacing={15} m={0} p={10} pl={10} pr={10} bgColor={"cyan.100"} display={{ md: "flex" }}>
     <Container w="50%" h="500px" borderRadius='30px 300px 300px 30px'
        border="20px solid whitesmoke" boxShadow='2xl'>
       <Image w="100%" boxSize="100%" borderRadius='30px 300px 300px 30px' src="https://www.edgecliffdentalcare.com.au/wp-content/uploads/2021/08/emergency_dentist_different-scaled.jpeg"/>
@@ -100,7 +100,7 @@ return (
   <VStack spacing={4} m={0} p={10} pl={10} pr={10}>
     <Text fontSize='2xl' color="#60CEF2">-FOR YOU</Text>
     <Text fontSize='6xl'>Tips, News & Promos 🤩</Text>
-    <Grid templateColumns='repeat(3, 1fr)' gap={10}>
+    <SimpleGrid templateColumns='repeat(3, 1fr)' gap={10}>
       <GridItem w="90%">
         <Container bgImage={"https://www.dentistrytoday.com/wp-content/uploads/2020/02/040929985887bfa1c73d5df0675434d9.jpg"} 
          h="280px" borderRadius='280px 10px 280px 280px' border="5px solid black">
@@ -119,7 +119,7 @@ return (
       <Container bgImage={"https://www.dentistrytoday.com/wp-content/uploads/2020/02/040929985887bfa1c73d5df0675434d9.jpg"} 
          h="280px" borderRadius='280px 10px 280px 280px' border="5px solid black">
            <Container fontSize='xl' p={1}  w="35%" bgColor={"blue.400"} borderRadius="20px" 
-            color="white" border="2px solid white">PROMO</Container>
+            color="white" border="2px solid white">NEWS</Container>
         </Container>
         <Spacer/>
         <br/>
@@ -143,7 +143,7 @@ return (
           <Text fontSize='2xl'>Read more</Text>
         </VStack>
       </GridItem> 
-   </Grid>
+   </SimpleGrid>
   </VStack>
 
   <HStack color="white" spacing={10} w="80%" margin="auto" p={4} border="20px solid lightcyan" boxShadow='2xl' bgColor={"blue.400"} borderRadius='50px'>

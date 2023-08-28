@@ -46,7 +46,7 @@ return (
              <FontAwesomeIcon icon={faTwitter} size="2x"color="blue" />
             </a>
             <a href="https://www.pinterest.com">
-             <FontAwesomeIcon icon={faPinterest} size="2x"color="blue" />
+             <FontAwesomeIcon icon={faPinterest} size="2x"color="red" />
             </a>
           </Grid>
        </Container>
