@@ -58,4 +58,6 @@ React Router: Used for handling navigation between different pages.
 
 GitHub link: https://github.com/Deep-06/penitent-cave-3104.git
 
+Vercel link: https://toothtalkdentalclinic.vercel.app/
+
 Netlify link:
